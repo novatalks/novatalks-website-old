@@ -1,0 +1,7 @@
+.cache
+.next
+.yarn/*
+!.yarn/releases
+out
+node_modules
+*.log

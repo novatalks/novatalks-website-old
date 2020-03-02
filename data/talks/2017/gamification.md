@@ -1,0 +1,22 @@
+---
+title: Workshop de Gamification
+date: 2017-04-05
+startTime: 14:00
+endTime: 16:30
+location: Sala 110 - Edifício IV
+image: /images/talks/gamification.jpg
+speakers:
+  - name: Manuel Pimenta
+    company: Fractal Minds
+more:
+  - title: Slides
+    url: https://goo.gl/jShoac
+---
+
+Existe um conjunto de pessoas, nascidos entre 15 a 30 anos atrás, a que o mundo decidiu começar a chamar "Millennials".
+As organizações, as universidades e até as suas famílias dizem que não conseguem que eles se foquem, que são demasiado exigentes nos processos de recrutamento, que são impossíveis de gerir e que não há como retê-los num sítio mais que dois anos.
+Claramente nunca lideraram um raid de 20 pessoas no World of Warcraft.
+
+Não fazem ideia que 20% dos seus colegas já jogaram 5 épocas seguidas no Football Manager, e levaram o Sintrense à Liga dos Campeões.
+Nunca saíram de casa às 2 da manhã para apanhar um Pikachu no Parque Eduardo VII.
+E é isto que quero partilhar convosco: a missão Épica de um Gamification Designer, para trazer o poder que os jogos já dominaram, além dos pontos, crachás e rankings, para todos os Muggles por aí e guiá-los à vitória. For the Alliance!

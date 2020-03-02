@@ -1,0 +1,24 @@
+---
+title: Introdução a Data Science
+date: 2017-05-10
+startTime: 14:00
+endTime: 15:30
+location: Sala 128 - Edifício II (Departamento de Informática)
+image: /images/talks/data_science.jpg
+speakers:
+  - name: Pedro Neves
+    company: Accenture
+more:
+  - title: Slides
+    url: https://goo.gl/z9jvur
+---
+
+### PT
+
+Numa altura em que se fala tanto de Big Data e Data Science, o que é significam realmente estas buzz words, qual a sua importância e porque é que típicamente andam de mãos dadas?
+O que é data science e o que não é? Qual a sua importância para a industria e porque é tão valorizada pelo negócio? Estas são algumas das questões que esta palestra pretende responder, fornecendo insights para o vasto tema de data science e monstrando como este termo está mais relacionado com a indústria do que normalmente se pensa.
+
+### EN
+
+In a time in which so much is said about Big Data and Data Science, what does these buzz words really mean? What is its importance and why are they tipically seen so closely together?
+What is Data Science and what it is not? What is its importance for the industry and why is so valued by the business side? These are the questions that this talk pretends to answer, providing insights for the broad theme of data science, showing how this buzz word is strictly connected with the industry.

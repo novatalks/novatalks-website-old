@@ -1,0 +1,2 @@
+- format date and time better?
+- home page: care with timezones/local time and calculation of live/scheduled/past talks?

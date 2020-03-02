@@ -1,0 +1,27 @@
+{
+  "files.eol": "\n",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+  "eslint.enable": false,
+  "eslint.nodePath": ".vscode/pnpify",
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "typescriptreact"
+  ],
+  "typescript.validate.enable": true,
+  "typescript.tsdk": ".vscode/pnpify/typescript/lib",
+  "prettier.prettierPath": ".vscode/pnpify/prettier/index.js",
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  }
+}
