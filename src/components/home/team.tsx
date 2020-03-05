@@ -42,12 +42,12 @@ const members = [
   },
   {
     name: "Manuel Ribeiro",
-    role: "Co-fundador",
+    role: "Vice-presidente e Co-fundador",
     image: "/images/team/manuel.png",
   },
   {
     name: "Beatriz Moreira",
-    role: "Relações públicas",
+    role: "Vice-presidente",
     image: "/images/team/beatriz.jpg",
   },
   {
@@ -62,8 +62,28 @@ const members = [
   },
   {
     name: "Guilherme Fonseca",
-    role: "Membro",
+    role: "Colaborador",
     image: "/images/team/guilherme_fonseca.png",
+  },
+  {
+    name: "Ana Rita",
+    role: "Colaboradora",
+    image: "/images/team/ana_rita.jpg",
+  },
+  {
+    name: "Guilherme Pacheco",
+    role: "Colaborador",
+    image: "/images/team/guilherme_pacheco.jpg",
+  },
+  {
+    name: "Margarida Vida",
+    role: "Colaboradora",
+    image: "/images/team/margarida_vida.png",
+  },
+  {
+    name: "Tomás Silva",
+    role: "Colaborador",
+    image: "/images/team/tomas_silva.jpg",
   },
   {
     name: "Guilherme Rito",
