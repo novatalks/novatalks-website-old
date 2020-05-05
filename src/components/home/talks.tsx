@@ -39,7 +39,7 @@ const useStyles = makeStyles(theme => ({
       zIndex: 1,
     },
     "&:hover $imageBackdrop": {
-      opacity: 0.15,
+      opacity: 0.7,
     },
     "&:hover $imageMarked": {
       opacity: 0,
