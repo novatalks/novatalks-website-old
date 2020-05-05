@@ -27,20 +27,18 @@ function About() {
         </Grid>
         <Grid item>
           <Typography variant="body1" className={classes.p}>
-            A NOVATalks é uma iniciativa organizada por um grupo de estudantes
-            de Engenharia Informática da FCT NOVA (Faculdade de Ciências e
-            Tecnologia da Universidade Nova de Lisboa), que se realiza com o
-            intuito de motivar toda a comunidade académica a pensar e expandir o
-            seu conhecimento nas áreas da Tecnologia, Informática e Inovação.
+            A NOVATalks é uma iniciativa estudantil, fundada em Abril de 2016 na
+            FCT NOVA, com o objectivo de motivar toda a comunidade académica a
+            pensar e expandir o seu conhecimento nas áreas da Ciência,
+            Tecnologia, Inovação e Sustentabilidade, complementando disciplinas
+            exploradas nos nossos currículos e introduzindo temas cada vez mais
+            relevantes na sociedade.
           </Typography>
           <Typography variant="body1" className={classes.p}>
-            Com a NOVATalks pretendemos levar-te a debater e reflectir sobre as
-            NOVAs tecnologias e partilhar com o mundo a tua visão do futuro, bem
-            como dar-te a conhecer todo um universo de tecnologias que já
-            existem e vão dar que falar.
-          </Typography>
-          <Typography variant="body1" className={classes.p}>
-            Não podes perder!
+            Com a NOVATalks pretendemos levar-te a debater e reflectir para além
+            do curso e partilhar com o mundo a tua visão do futuro, bem como
+            dar-te a conhecer todo um universo de tecnologias que já existem e
+            vão dar que falar.
           </Typography>
         </Grid>
       </Grid>
