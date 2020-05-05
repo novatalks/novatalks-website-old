@@ -3,6 +3,7 @@ import Head from "next/head";
 import { AllTalks } from "../../types";
 import MainImage from "./main-image";
 import About from "./about";
+import HelpUs from "./help-us";
 import Team from "./team";
 import Talks from "./talks";
 
@@ -19,6 +20,7 @@ export default ({ talks }: HomeProps) => {
       <MainImage />
       <div id="jump-sobre-nos" />
       <About />
+      <HelpUs />
       <div id="jump-equipa" />
       <Team />
       <div id="jump-eventos" />
