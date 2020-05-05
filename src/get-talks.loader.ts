@@ -4,7 +4,7 @@ import { getAllTalks } from "../scripts/get-all-talks";
 import { processTalk } from "../scripts/process-talk";
 import { AllTalks } from "./types";
 
-export default async function() {
+export default async function () {
   const talks = await getAllTalks();
   const dependencies = talks.map(({ filename }) => filename);
   const processed = await Promise.all(

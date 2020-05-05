@@ -25,7 +25,7 @@ const withPlugin = nextPlugin({
   dataFolder: path.resolve(__dirname, "data"),
 });
 
-const exportPathMap = async function(
+const exportPathMap = async function (
   defaultPathMap,
   { dev, dir, outDir, distDir, buildId }
 ) {

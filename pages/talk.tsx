@@ -3,7 +3,10 @@ import { NextPage } from "next";
 import TalkComponent from "../src/components/talk";
 import { TalkAndHtml } from "../src/types";
 
-const load = (year: string | string[], talk: string | string[]) => {
+const load = (
+  year: string | string[] | undefined,
+  talk: string | string[] | undefined
+) => {
   return import(`Data/talks/${year}/${talk}.md`) as Promise<TalkAndHtml>;
 };
 

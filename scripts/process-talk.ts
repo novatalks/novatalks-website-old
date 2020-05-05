@@ -6,7 +6,6 @@ import vfile from "vfile";
 import remark from "remark";
 // @ts-ignore
 import html from "remark-html";
-// @ts-ignore
 import frontmatter from "remark-frontmatter";
 import { DateTime } from "luxon";
 import { validateSpeaker, validateTalkWithoutSpeaker } from "./schemas";
