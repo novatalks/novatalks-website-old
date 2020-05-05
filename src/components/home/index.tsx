@@ -21,7 +21,7 @@ export default ({ talks }: HomeProps) => {
       <About />
       <div id="jump-equipa" />
       <Team />
-      <div id="jump-talks" />
+      <div id="jump-eventos" />
       <Talks talks={talks} />
     </>
   );

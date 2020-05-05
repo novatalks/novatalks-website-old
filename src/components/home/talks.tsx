@@ -168,7 +168,7 @@ function Talks({ talks }: TalksProps) {
   return (
     <Container className={classes.root} component="section">
       <Typography variant="h4" align="center">
-        Talks
+        Eventos
       </Typography>
       {live.length > 0 && (
         <>
