@@ -34,6 +34,12 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
+type Member = {
+  name: string;
+  role: string;
+  image: string;
+};
+
 const members = [
   {
     name: "André Trindade",
@@ -51,14 +57,14 @@ const members = [
     image: "/images/team/beatriz.jpg",
   },
   {
-    name: "João Mota",
-    role: "Web developer",
-    image: "/images/team/jdm.jpg",
-  },
-  {
     name: "Marta Coelho",
     role: "Tesoureira",
     image: "/images/team/marta.png",
+  },
+  {
+    name: "João Mota",
+    role: "Web developer",
+    image: "/images/team/jdm.jpg",
   },
   {
     name: "Guilherme Fonseca",
@@ -86,6 +92,14 @@ const members = [
     image: "/images/team/tomas_silva.jpg",
   },
   {
+    name: "João Pedro Sousa",
+    role: "Colaborador",
+    image: "/images/team/joao_pedro_sousa.jpg",
+  },
+] as const;
+
+const seniorAdvisors = [
+  {
     name: "Guilherme Rito",
     role: "Co-fundador e Senior Advisor",
     image: "/images/team/guilherme.jpg",
@@ -100,6 +114,34 @@ const members = [
 function Team() {
   const classes = useStyles();
 
+  function eachPerson(m: Member) {
+    return (
+      <Grid item xs={12} md={3} key={m.name}>
+        <div className={classes.item}>
+          <img
+            className={classes.image}
+            src={BASE_PATH + m.image}
+            alt={m.name}
+          />
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.memberName}
+          >
+            {m.name}
+          </Typography>
+          <Typography
+            variant="h6"
+            align="center"
+            className={classes.memberRole}
+          >
+            {m.role}
+          </Typography>
+        </div>
+      </Grid>
+    );
+  }
+
   return (
     <Container className={classes.root} component="section">
       <Grid container spacing={5}>
@@ -108,31 +150,12 @@ function Team() {
             A nossa equipa
           </Typography>
         </Grid>
-        {members.map((m, i) => (
-          <Grid item xs={12} md={3} key={i}>
-            <div className={classes.item}>
-              <img
-                className={classes.image}
-                src={BASE_PATH + m.image}
-                alt={m.name}
-              />
-              <Typography
-                variant="h5"
-                align="center"
-                className={classes.memberName}
-              >
-                {m.name}
-              </Typography>
-              <Typography
-                variant="h6"
-                align="center"
-                className={classes.memberRole}
-              >
-                {m.role}
-              </Typography>
-            </div>
-          </Grid>
-        ))}
+        <Grid item container spacing={5} justify="center">
+          {members.map(eachPerson)}
+        </Grid>
+        <Grid item container spacing={5} justify="center">
+          {seniorAdvisors.map(eachPerson)}
+        </Grid>
       </Grid>
     </Container>
   );
