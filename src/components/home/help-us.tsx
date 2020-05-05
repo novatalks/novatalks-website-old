@@ -39,7 +39,7 @@ function HelpUs() {
         <Grid item>
           <Typography variant="body1" className={classes.p}>
             A NOVATalks é uma associação estudantil sem fins lucrativos.
-            Acreditamos que o conhecimento e a cultura deve estar disponível
+            Acreditamos que o conhecimento e a cultura devem estar disponíveis
             para todos. Além disso, o gasto em propinas todos os anos já é
             suficientemente pesado. Por isso não cobramos entrada ou
             participação em nenhum dos nossos eventos. Infelizmente, é bastante
