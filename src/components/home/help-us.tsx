@@ -40,12 +40,12 @@ function HelpUs() {
           <Typography variant="body1" className={classes.p}>
             A NOVATalks é uma associação estudantil sem fins lucrativos.
             Acreditamos que o conhecimento e a cultura devem estar disponíveis
-            para todos. Além disso, o gasto em propinas todos os anos já é
-            suficientemente pesado. Por isso não cobramos entrada ou
-            participação em nenhum dos nossos eventos. Infelizmente, é bastante
-            limitante realizar eventos sem um budget, por isso pedimos a tua
-            ajuda para continuarmos com o nosso trabalho e a podermos tornar as
-            nossas ideias realidade.
+            para todos. Além disso, o gasto anual em propinas já é
+            suficientemente pesado para os alunos. Por isso, não cobramos
+            entrada ou participação em nenhum dos nossos eventos. Infelizmente,
+            é bastante limitante realizar eventos sem budget, por isso pedimos a
+            tua ajuda para continuarmos com o nosso trabalho e podermos tornar
+            as nossas ideias realidade.
           </Typography>
           <div className={classes.donation}>
             <div dangerouslySetInnerHTML={{ __html: DONATION_HTML }}></div>
