@@ -97,6 +97,10 @@ const useStyles = makeStyles(theme => ({
   },
   live: {
     color: "red",
+    fontWeight: "bold",
+  },
+  bold: {
+    fontWeight: "bold",
   },
 }));
 
@@ -172,7 +176,7 @@ function Talks({ talks }: TalksProps) {
       </Typography>
       {live.length > 0 && (
         <>
-          <Typography variant="h6" align="left" className={classes.live}>
+          <Typography variant="h5" align="left" className={classes.live}>
             LIVE
           </Typography>
           <div className={classes.images}>
@@ -182,7 +186,7 @@ function Talks({ talks }: TalksProps) {
       )}
       {scheduled.length > 0 && (
         <>
-          <Typography variant="h6" align="left">
+          <Typography variant="h5" align="left" className={classes.bold}>
             Marcadas
           </Typography>
           <div className={classes.images}>

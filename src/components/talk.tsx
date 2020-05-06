@@ -46,7 +46,7 @@ export default ({
         {location}
       </Typography>
       <Typography variant="h6" gutterBottom>
-        Speakers
+        Oradores
       </Typography>
       <Typography variant="body1" component="div">
         <ul>
