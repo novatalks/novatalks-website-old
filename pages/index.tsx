@@ -1,5 +1,5 @@
 import React from "react";
-import { NextPage } from "next";
+import { NextPage, GetStaticProps } from "next";
 import HomeComponent, { HomeProps } from "../src/components/home";
 import { AllTalks } from "../src/types";
 
@@ -14,8 +14,12 @@ async function getAllTalks() {
   return (data as unknown) as AllTalks;
 }
 
-HomePage.getInitialProps = async () => ({
-  talks: await getAllTalks(),
+export const getStaticProps: GetStaticProps = async (): Promise<{
+  props: HomeProps;
+}> => ({
+  props: {
+    talks: await getAllTalks(),
+  },
 });
 
 export default HomePage;

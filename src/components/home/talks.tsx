@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import Container from "@material-ui/core/Container";
@@ -139,14 +139,17 @@ function add<K, V>(map: Map<K, V[]>, key: K, val: V) {
   }
 }
 
+let globalFirstLoad = true;
+
 function Talks({ talks }: TalksProps) {
+  const [firstLoad, setFirstLoad] = useState<boolean>(globalFirstLoad);
   const NOW = Date.now();
   const classes = useStyles();
   const live: MinimalTalk[] = [];
   const scheduled: MinimalTalk[] = [];
   const past: Map<string, MinimalTalk[]> = new Map();
 
-  if (typeof window === "undefined") {
+  if (firstLoad) {
     for (const t of talks) {
       const start = new Date(`${t.date}T${t.startTime}`);
       const year = start.getFullYear();
@@ -169,33 +172,38 @@ function Talks({ talks }: TalksProps) {
     }
   }
 
+  useEffect(() => {
+    globalFirstLoad = false;
+    setFirstLoad(false);
+  }, []);
+
   return (
     <Container className={classes.root} component="section">
       <Typography variant="h4" align="center">
         Eventos
       </Typography>
       {live.length > 0 && (
-        <>
+        <React.Fragment key="live">
           <Typography variant="h5" align="left" className={classes.live}>
             LIVE
           </Typography>
           <div className={classes.images}>
             {live.map(t => perTalk(t, classes))}
           </div>
-        </>
+        </React.Fragment>
       )}
       {scheduled.length > 0 && (
-        <>
+        <React.Fragment key="scheduled">
           <Typography variant="h5" align="left" className={classes.bold}>
             Marcadas
           </Typography>
           <div className={classes.images}>
             {scheduled.map(t => perTalk(t, classes))}
           </div>
-        </>
+        </React.Fragment>
       )}
       {Array.from(past).map(([year, talks]) => (
-        <React.Fragment key={year}>
+        <React.Fragment key={`year_${year}`}>
           <Typography variant="h6" align="left">
             {year}
           </Typography>

@@ -17,7 +17,6 @@ require("@babel/register")({
 const path = require("path");
 const { PHASE_DEVELOPMENT_SERVER } = require("next/constants");
 const nextPlugin = require("./scripts/next-plugin");
-const { getAllTalks } = require("./scripts/get-all-talks");
 
 // TODO https://github.com/zeit/next.js/blob/canary/examples/with-next-offline/next.config.js
 
@@ -25,20 +24,8 @@ const withPlugin = nextPlugin({
   dataFolder: path.resolve(__dirname, "data"),
 });
 
-const exportPathMap = async function (
-  defaultPathMap,
-  { dev, dir, outDir, distDir, buildId }
-) {
-  const talks = await getAllTalks();
-  return Object.fromEntries([
-    ["/", { page: "/" }],
-    ...talks.map(({ as, page, query }) => [as, { page, query }]),
-  ]);
-};
-
 module.exports = (phase, { defaultConfig }) => {
   const config = {
-    exportPathMap,
     exportTrailingSlash: true,
     typescript: {
       ignoreDevErrors: phase === PHASE_DEVELOPMENT_SERVER,
