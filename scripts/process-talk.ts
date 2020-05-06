@@ -1,5 +1,6 @@
 // const vFileReport = require("vfile-reporter");
 // const recommended = require("remark-preset-lint-recommended");
+import path from "path";
 import fs from "fs-extra";
 import yaml from "yaml";
 import vfile from "vfile";
@@ -30,15 +31,15 @@ function fromISO(string: string) {
   return DateTime.fromISO(string, { zone: "Portugal" });
 }
 
-function validateDateTime(string: string) {
-  const dateTime = fromISO(string);
-
+function validateDateTime(dateTime: DateTime) {
   if (!dateTime.isValid) {
     throw new Error(
       `${dateTime} is invalid. ${dateTime.invalidReason} ${dateTime.invalidExplanation}`
     );
   }
 }
+
+const CWD = process.cwd();
 
 export async function processTalk(
   filename: string,
@@ -48,6 +49,7 @@ export async function processTalk(
     talk: string;
   }
 ) {
+  const relativeFilename = path.relative(CWD, filename);
   const file = await processor().process(
     vfile({
       path: filename,
@@ -56,18 +58,30 @@ export async function processTalk(
   );
   // console.log(vFileReport(file));
 
-  const talk = validateTalkWithoutSpeaker(file.data);
+  const talk = validateTalkWithoutSpeaker(
+    file.data,
+    ` (in ${relativeFilename})`
+  );
+
+  const startTime = fromISO(`${talk.date}T${talk.startTime}`);
+  const endTime = fromISO(`${talk.date}T${talk.endTime}`);
 
   // Additional validation for date and time
-  validateDateTime(`${talk.date}T${talk.startTime}`);
-  validateDateTime(`${talk.date}T${talk.endTime}`);
+  validateDateTime(startTime);
+  validateDateTime(endTime);
+
+  if (endTime.toMillis() - startTime.toMillis() <= 0) {
+    throw new Error(
+      `The difference between the end and start times should be positive (in ${relativeFilename})`
+    );
+  }
 
   // See if year in url matches year in talk's frontmatter
   const { year } = query || parseTalkFilename(filename);
-  const yearInData = fromISO(talk.date).year;
+  const yearInData = startTime.year;
   if (yearInData !== year) {
     throw new Error(
-      `Year in frontmatter (${yearInData}) does not match year in path (${year})`
+      `Year in frontmatter (${yearInData}) does not match year in path (${year}) (in ${relativeFilename})`
     );
   }
 
