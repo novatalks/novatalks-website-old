@@ -4,7 +4,8 @@
   "author": "NOVATalks",
   "scripts": {
     "dev": "next",
-    "build": "rm -f -r .next && rm -f -r out && yarn next build && yarn next export",
+    "clean": "rm -f -r .next && rm -f -r out",
+    "build": "yarn run clean && yarn next build && yarn next export && cp -v out/404/index.html out/404.html",
     "http": "http-server out -c-1",
     "format": "prettier --write \"**/*.{js,ts,tsx,json,md}\"",
     "lint": "eslint **/*.js **/*.ts **/*.tsx"
