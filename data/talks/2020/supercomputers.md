@@ -1,5 +1,5 @@
 ---
-title: Mudando o futuro usando Supercomputadores
+title: Shaping the future using Supercomputers
 date: 2020-05-13
 startTime: 15:00
 endTime: 16:00
@@ -10,6 +10,11 @@ speakers:
     company: Barcelona Supercomputing Center
   - name: Andrew T. Prata
     company: Barcelona Supercomputing Center
+more:
+  - title: Facebook Post
+    url: https://www.facebook.com/novatalks.fct/posts/1086892908350050/
+  - title: ZOOM call
+    url: https://bit.ly/novatalks-supercomputers
 ---
 
 When we talk about supercomputers, we talk about any kind of extremely fast computer. This term usually refers to the fastest computers available at a certain time. Such computers are mostly used for scientific applications that require a vast amount of computational resources.
@@ -17,3 +22,5 @@ When we talk about supercomputers, we talk about any kind of extremely fast comp
 Common uses for supercomputers include modeling complex physical systems and phenomena such as climate dynamics, weather forecasting, geophysics, cosmos evolution, chemical research (eg. pharmacology) and medical imaging. As the cost of computers comes down, more industries have begun to incorporate supercomputers in their business models.
 
 How do they work? How are we using them? In this talk we will provide an introduction to supercomputing and describe some specific applications of MareNostrum4 (MN4), the supercomputer operated by the Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC). In particular, we will show how MN4 is being used by Mitiga Solutions (a spin-off company of the BSC) to simulate hazardous volcanic clouds that pose a threat to aviation and communities living in close proximity to volcanoes. We will also discuss how these models are validated using satellite observations through selected case studies of significant volcanic eruption events.
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnovatalks.fct%2Fposts%2F1086892908350050&width=500" width="500" height="496" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>

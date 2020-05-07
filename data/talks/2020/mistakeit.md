@@ -1,5 +1,5 @@
 ---
-title: NOVATalks MistakeIt
+title: MistakeIt
 date: 2020-05-01
 startTime: 19:00
 endTime: 20:00
