@@ -59,7 +59,7 @@ export default ({
                   <Link
                     href={s.url}
                     target="_blank"
-                    rel="noopener"
+                    rel="nofollow noopener noreferrer"
                     color="secondary"
                   >
                     {s.url}
@@ -83,7 +83,7 @@ export default ({
                 <Link
                   href={r.url}
                   target="_blank"
-                  rel="noopener"
+                  rel="nofollow noopener noreferrer"
                   color="secondary"
                 >
                   {r.title}
@@ -107,7 +107,7 @@ export default ({
               <Link
                 href={m.url}
                 target="_blank"
-                rel="noopener"
+                rel="nofollow noopener noreferrer"
                 color="secondary"
               >
                 {m.title}

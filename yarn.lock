@@ -6163,6 +6163,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"is-absolute-url@npm:^3.0.0":
+  version: 3.0.3
+  resolution: "is-absolute-url@npm:3.0.3"
+  checksum: 3/1beac700465defee2bfa881cafcf144f3365cf0f748d62880e4a726c1de525ac39e8203bed14032f10509916dd392908e24d50ce1c1a444b44655a74708f9556
+  languageName: node
+  linkType: hard
+
 "is-accessor-descriptor@npm:^0.1.6":
   version: 0.1.6
   resolution: "is-accessor-descriptor@npm:0.1.6"
@@ -7910,6 +7917,7 @@ fsevents@~2.1.2:
     react-dom: ^16.13.1
     react-helmet: ^6.0.0
     remark: ^12.0.0
+    remark-external-links: ^6.0.0
     remark-frontmatter: ^2.0.0
     remark-html: ^11.0.1
     typescript: ^3.8.3
@@ -9424,6 +9432,19 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"remark-external-links@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "remark-external-links@npm:6.0.0"
+  dependencies:
+    extend: ^3.0.0
+    is-absolute-url: ^3.0.0
+    mdast-util-definitions: ^2.0.0
+    space-separated-tokens: ^1.1.2
+    unist-util-visit: ^2.0.0
+  checksum: 3/3965c918c162c42e37d8163acc71e52a1fddb190f2efc61f31687a51aa08c55e9b236a577a3195efe20a9a852734de0b732514cda663b3d8c823169e9d425e4a
+  languageName: node
+  linkType: hard
+
 "remark-frontmatter@npm:^2.0.0":
   version: 2.0.0
   resolution: "remark-frontmatter@npm:2.0.0"
@@ -10123,7 +10144,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"space-separated-tokens@npm:^1.0.0":
+"space-separated-tokens@npm:^1.0.0, space-separated-tokens@npm:^1.1.2":
   version: 1.1.5
   resolution: "space-separated-tokens@npm:1.1.5"
   checksum: 3/2b143776c39176e7faa020d9c96d41ecc33862139b8bc92d5551561e9ae7adbe537b3a51d381da563a953dbda82ea117cefaa7dec9075fb869596cb02d582abe

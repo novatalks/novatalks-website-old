@@ -174,6 +174,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:12.0.0"
       ],
       [
+        "remark-external-links",
+        "npm:6.0.0"
+      ],
+      [
         "remark-frontmatter",
         "npm:2.0.0"
       ],
@@ -241,6 +245,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:83057f8ac0785c80be2d3913adee976efbb4e0eaaad43926d4eb9ae952e617fe3b33af8795fab087c3d3df5790e834e610d11b6a34dc7753c58fd1ca1bdb9e68#npm:16.13.1"],
             ["react-helmet", "virtual:83057f8ac0785c80be2d3913adee976efbb4e0eaaad43926d4eb9ae952e617fe3b33af8795fab087c3d3df5790e834e610d11b6a34dc7753c58fd1ca1bdb9e68#npm:6.0.0"],
             ["remark", "npm:12.0.0"],
+            ["remark-external-links", "npm:6.0.0"],
             ["remark-frontmatter", "npm:2.0.0"],
             ["remark-html", "npm:11.0.1"],
             ["typescript", "patch:typescript@npm%3A3.8.3#builtin<compat/typescript>::version=3.8.3&hash=0ea415"],
@@ -7723,6 +7728,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-absolute-url", "npm:2.1.0"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:3.0.3", {
+          "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/is-absolute-url-npm-3.0.3-0b1c391bc4-3.zip/node_modules/is-absolute-url/",
+          "packageDependencies": [
+            ["is-absolute-url", "npm:3.0.3"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["is-accessor-descriptor", [
@@ -9620,6 +9632,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:83057f8ac0785c80be2d3913adee976efbb4e0eaaad43926d4eb9ae952e617fe3b33af8795fab087c3d3df5790e834e610d11b6a34dc7753c58fd1ca1bdb9e68#npm:16.13.1"],
             ["react-helmet", "virtual:83057f8ac0785c80be2d3913adee976efbb4e0eaaad43926d4eb9ae952e617fe3b33af8795fab087c3d3df5790e834e610d11b6a34dc7753c58fd1ca1bdb9e68#npm:6.0.0"],
             ["remark", "npm:12.0.0"],
+            ["remark-external-links", "npm:6.0.0"],
             ["remark-frontmatter", "npm:2.0.0"],
             ["remark-html", "npm:11.0.1"],
             ["typescript", "patch:typescript@npm%3A3.8.3#builtin<compat/typescript>::version=3.8.3&hash=0ea415"],
@@ -11334,6 +11347,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["remark-parse", "npm:8.0.2"],
             ["remark-stringify", "npm:8.0.0"],
             ["unified", "npm:9.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["remark-external-links", [
+        ["npm:6.0.0", {
+          "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/remark-external-links-npm-6.0.0-bc5445e750-3.zip/node_modules/remark-external-links/",
+          "packageDependencies": [
+            ["remark-external-links", "npm:6.0.0"],
+            ["extend", "npm:3.0.2"],
+            ["is-absolute-url", "npm:3.0.3"],
+            ["mdast-util-definitions", "npm:2.0.1"],
+            ["space-separated-tokens", "npm:1.1.5"],
+            ["unist-util-visit", "npm:2.0.2"]
           ],
           "linkType": "HARD",
         }]

@@ -6,6 +6,8 @@ import yaml from "yaml";
 import vfile from "vfile";
 import remark from "remark";
 // @ts-ignore
+import externalLinks from "remark-external-links";
+// @ts-ignore
 import html from "remark-html";
 import frontmatter from "remark-frontmatter";
 import { DateTime } from "luxon";
@@ -13,17 +15,16 @@ import { validateSpeaker, validateTalkWithoutSpeaker } from "./schemas";
 import { parseTalkFilename } from "./parse-talk-filename";
 
 const processor = remark()
+  .use(externalLinks as any)
   .use(html as any)
   .use(frontmatter, ["yaml"])
-  .use(() => {
-    return (ast, file) => {
-      const node = ast.children[0];
-      if (node != null && node.type === "yaml") {
-        file.data = yaml.parse(node.value);
-      } else {
-        file.data = null;
-      }
-    };
+  .use(() => (ast, file) => {
+    const node = ast.children[0];
+    if (node != null && node.type === "yaml") {
+      file.data = yaml.parse(node.value);
+    } else {
+      file.data = null;
+    }
   })
   .freeze();
 
