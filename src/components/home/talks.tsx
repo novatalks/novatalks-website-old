@@ -195,7 +195,7 @@ function Talks({ talks }: TalksProps) {
       {scheduled.length > 0 && (
         <React.Fragment key="scheduled">
           <Typography variant="h5" align="left" className={classes.bold}>
-            Marcadas
+            Próximos eventos
           </Typography>
           <div className={classes.images}>
             {scheduled.map(t => perTalk(t, classes))}
