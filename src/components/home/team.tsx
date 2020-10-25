@@ -42,59 +42,112 @@ type Member = {
 
 const members = [
   {
-    name: "André Trindade",
+    name: "Ana Rita",
     role: "Presidente",
-    image: "/images/team/adt.png",
+    image: "/images/team/ana_rita.jpg",
+  },
+  {
+    name: "João Pedro Sousa",
+    role: "Vice-Presidente e Responsável de Eventos",
+    image: "/images/team/joao_pedro_sousa.jpg",
   },
   {
     name: "Manuel Ribeiro",
-    role: "Vice-presidente e Co-fundador",
+    role: "Responsável de Divulgação e Co-fundador",
     image: "/images/team/manuel.png",
   },
   {
+    name: "André Trindade",
+    role: "Responsável de Imagem",
+    image: "/images/team/adt.png",
+  },
+  {
     name: "Beatriz Moreira",
-    role: "Vice-presidente",
+    role: "Responsável de Relações Públicas",
     image: "/images/team/beatriz.jpg",
   },
   {
-    name: "Marta Coelho",
-    role: "Tesoureira",
-    image: "/images/team/marta.png",
-  },
-  {
     name: "João Mota",
-    role: "Web developer",
+    role: "Developer",
     image: "/images/team/jdm.jpg",
   },
   {
+    name: "Pedro Almeida",
+    role: "Developer",
+    image: "/images/team/pedro_almeida.jpeg",
+  },
+  {
+    name: "Beatriz Alves",
+    role: "Divulgação",
+    image: "/images/team/default.png",
+  },
+  {
+    name: "Gonçalo Neves",
+    role: "Divulgação",
+    image: "/images/team/goncalo_neves.png",
+  },
+  {
+    name: "Marta Coelho",
+    role: "Divulgação",
+    image: "/images/team/marta.png",
+  },
+  {
+    name: "Margarida Vida",
+    role: "Divulgação",
+    image: "/images/team/margarida_vida.png",
+  },
+  {
+    name: "Beatriz Cerqueira",
+    role: "Eventos",
+    image: "/images/team/beatriz_cerqueira.jpeg",
+  },
+  {
+    name: "Carolina Duro",
+    role: "Eventos",
+    image: "/images/team/carolina_duro.png",
+  },
+  {
+    name: "Guilherme Bartolomeu",
+    role: "Eventos",
+    image: "/images/team/default.png",
+  },
+  {
     name: "Guilherme Fonseca",
-    role: "Colaborador",
+    role: "Eventos",
     image: "/images/team/guilherme_fonseca.png",
   },
   {
-    name: "Ana Rita",
-    role: "Colaboradora",
-    image: "/images/team/ana_rita.jpg",
+    name: "Naomi Custódio",
+    role: "Eventos",
+    image: "/images/team/naomi_custodio.jpeg",
   },
+  {
+    name: "Miguel Candeias,",
+    role: "Imagem",
+    image: "/images/team/default.png",
+  },
+  {
+    name: "Ian Teixeira",
+    role: "Relações Públicas",
+    image: "/images/team/default.png",
+  },
+  {
+    name: "Miguel Cardoso",
+    role: "Relações Públicas",
+    image: "/images/team/miguel_cardoso.png",
+  },
+] as const;
+
+const formerMembers = [
   {
     name: "Guilherme Pacheco",
     role: "Colaborador",
     image: "/images/team/guilherme_pacheco.jpg",
   },
   {
-    name: "Margarida Vida",
-    role: "Colaboradora",
-    image: "/images/team/margarida_vida.png",
-  },
-  {
     name: "Tomás Silva",
     role: "Colaborador",
     image: "/images/team/tomas_silva.jpg",
-  },
-  {
-    name: "João Pedro Sousa",
-    role: "Colaborador",
-    image: "/images/team/joao_pedro_sousa.jpg",
   },
 ] as const;
 

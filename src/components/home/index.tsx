@@ -21,10 +21,10 @@ export default ({ talks }: HomeProps) => {
       <div id="jump-sobre-nos" />
       <About />
       <HelpUs />
-      <div id="jump-equipa" />
-      <Team />
       <div id="jump-eventos" />
       <Talks talks={talks} />
+      <div id="jump-equipa" />
+      <Team />
     </>
   );
 };
