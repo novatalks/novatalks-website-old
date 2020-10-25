@@ -34,6 +34,9 @@ const useStyles = makeStyles(theme => ({
       backgroundColor: theme.palette.warning.dark,
     },
   },
+  iconImg: {
+    height: 30,
+  },
   list: {
     margin: 0,
     listStyle: "none",
@@ -62,7 +65,7 @@ export default function AppFooter() {
               direction="column"
               justify="flex-end"
               className={classes.iconsWrapper}
-              spacing={2}
+              spacing={4}
             >
               <Grid item className={classes.icons}>
                 <a
@@ -72,8 +75,37 @@ export default function AppFooter() {
                   className={classes.icon}
                 >
                   <img
-                    src={`${BASE_PATH}/images/facebook.png`}
+                    src={`${BASE_PATH}/images/facebook.svg`}
                     alt="Facebook"
+                    className={classes.iconImg}
+                  />
+                </a>
+              </Grid>
+              <Grid item className={classes.icons}>
+                <a
+                  href="https://www.instagram.com/novatalks.fct"
+                  target="_blank"
+                  rel="noopener"
+                  className={classes.icon}
+                >
+                  <img
+                    src={`${BASE_PATH}/images/instagram.svg`}
+                    alt="Facebook"
+                    className={classes.iconImg}
+                  />
+                </a>
+              </Grid>
+              <Grid item className={classes.icons}>
+                <a
+                  href="https://www.linkedin.com/company/novatalks"
+                  target="_blank"
+                  rel="noopener"
+                  className={classes.icon}
+                >
+                  <img
+                    src={`${BASE_PATH}/images/linkedin.svg`}
+                    alt="Facebook"
+                    className={classes.iconImg}
                   />
                 </a>
               </Grid>

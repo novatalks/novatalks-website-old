@@ -3,7 +3,7 @@ title: PowerUp
 date: 2020-10-14
 startTime: 18:00
 endTime: 19:30
-location: Zoom e direto no Facebook
+location: Direto no Facebook ou ZOOM
 image: /images/talks/powerup.png
 speakers:
   - name: Meag-gan O'Reilly
