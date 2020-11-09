@@ -26,7 +26,7 @@ const withPlugin = nextPlugin({
 
 module.exports = (phase, { defaultConfig }) => {
   const config = {
-    exportTrailingSlash: true,
+    trailingSlash: true,
     typescript: {
       ignoreDevErrors: phase === PHASE_DEVELOPMENT_SERVER,
       ignoreBuildErrors: phase === PHASE_DEVELOPMENT_SERVER,
