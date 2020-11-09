@@ -2,6 +2,7 @@
 import React from "react";
 import App from "next/app";
 import Router from "next/router";
+import Head from "next/head";
 import { ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import AppBar from "../src/components/app-bar";
@@ -53,6 +54,14 @@ export default class MyApp extends App {
 
     return (
       <>
+        <Head>
+          <meta charSet="utf-8" />
+          <meta
+            name="viewport"
+            content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
+          />
+          <meta name="theme-color" content={theme.palette.primary.main} />
+        </Head>
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <AppBar />

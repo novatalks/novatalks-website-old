@@ -122,14 +122,14 @@ const members = [
     image: "/images/team/naomi_custodio.jpeg",
   },
   {
-    name: "Miguel Candeias,",
+    name: "Miguel Candeias",
     role: "Imagem",
-    image: "/images/team/default.png",
+    image: "/images/team/miguel_candeias.jpeg",
   },
   {
     name: "Ian Teixeira",
     role: "Relações Públicas",
-    image: "/images/team/default.png",
+    image: "/images/team/ian_teixeira.jpeg",
   },
   {
     name: "Miguel Cardoso",
