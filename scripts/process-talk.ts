@@ -3,11 +3,8 @@
 import path from "path";
 import fs from "fs-extra";
 import yaml from "yaml";
-import vfile from "vfile";
 import remark from "remark";
-// @ts-ignore
 import externalLinks from "remark-external-links";
-// @ts-ignore
 import html from "remark-html";
 import frontmatter from "remark-frontmatter";
 import { DateTime } from "luxon";
@@ -15,8 +12,8 @@ import { validateSpeaker, validateTalkWithoutSpeaker } from "./schemas";
 import { parseTalkFilename } from "./parse-talk-filename";
 
 const processor = remark()
-  .use(externalLinks as any)
-  .use(html as any)
+  .use(externalLinks)
+  .use(html)
   .use(frontmatter, ["yaml"])
   .use(() => (ast, file) => {
     const node = ast.children[0];
@@ -51,12 +48,10 @@ export async function processTalk(
   }
 ) {
   const relativeFilename = path.relative(CWD, filename);
-  const file = await processor().process(
-    vfile({
-      path: filename,
-      contents,
-    })
-  );
+  const file = await processor().process({
+    path: filename,
+    contents,
+  });
   // console.log(vFileReport(file));
 
   const talk = validateTalkWithoutSpeaker(

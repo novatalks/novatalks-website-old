@@ -6,16 +6,16 @@
     "source.fixAll.eslint": false
   },
   "eslint.enable": false,
-  "eslint.nodePath": ".vscode/pnpify",
+  "eslint.nodePath": ".yarn/sdks",
   "eslint.validate": [
     "javascript",
     "typescript",
     "typescriptreact"
   ],
   "typescript.validate.enable": true,
-  "typescript.tsdk": ".vscode/pnpify/typescript/lib",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "prettier.prettierPath": ".vscode/pnpify/prettier/index.js",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
   "[javascript]": {
     "editor.formatOnSave": true
   },
@@ -24,5 +24,9 @@
   },
   "[typescriptreact]": {
     "editor.formatOnSave": true
+  },
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
   }
 }
