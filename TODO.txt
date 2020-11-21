@@ -1,2 +1,8 @@
 - format date and time better?
 - home page: care about timezones/local time and calculation of live/scheduled/past talks?
+
+- Windows commands:
+  - Clean: rmdir /s /q .next && rmdir /s /q out
+  - Build: yarn next build && yarn next export && copy ".\out\404\index.html" ".\out\404.html"
+
+- Eslint is not working with Yarn PnP

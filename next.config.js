@@ -27,13 +27,6 @@ const withPlugin = nextPlugin({
 module.exports = (phase, { defaultConfig }) => {
   const config = {
     trailingSlash: true,
-    typescript: {
-      ignoreDevErrors: phase === PHASE_DEVELOPMENT_SERVER,
-      ignoreBuildErrors: phase === PHASE_DEVELOPMENT_SERVER,
-    },
-    /*experimental: {
-      basePath: "/novatalks-website-2",
-    },*/
   };
 
   return withPlugin(config);
