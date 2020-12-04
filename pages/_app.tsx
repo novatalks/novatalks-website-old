@@ -19,6 +19,8 @@ const homeUrlToSection = (url: string) => {
     case "/#eventos":
     case "/#talks":
       return document.getElementById("jump-eventos");
+    case "/#parceiros":
+      return document.getElementById("jump-parceiros");
     default:
       return null;
   }

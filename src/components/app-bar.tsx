@@ -70,18 +70,27 @@ function AppAppBar() {
               underline="none"
               className={classes.rightLink}
               href="/"
-              as="/#equipa"
+              as="/#eventos"
             >
-              Equipa
+              Eventos
             </Link>
             <Link
               variant="h6"
               underline="none"
               className={classes.rightLink}
               href="/"
-              as="/#eventos"
+              as="/#parceiros"
             >
-              Eventos
+              Parceiros
+            </Link>
+            <Link
+              variant="h6"
+              underline="none"
+              className={classes.rightLink}
+              href="/"
+              as="/#equipa"
+            >
+              Equipa
             </Link>
           </div>
         </MuiToolbar>
