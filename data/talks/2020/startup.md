@@ -19,6 +19,10 @@ more:
     url: https://zoom.us/j/96130144660?pwd=aGxaakc5M29qQjRhdFdJQXJHMFRDUT09
 ---
 
+**PT**
+
 Madan Parque is a science and technology park established in 1995 and active since the beginning of 2000, whose mission is to play an interface between the academic world and companies. The core activities are the promotion of NTBFs (new technology-based firms) and their acceleration, as well as the development of knowledge-intensive projects in the region.  
+
+**EN**
 
 Firstly, Belma Rizvanovic, Project and Strategic Partnerships Manager, will present us Madan Parque and all that a student can find as an opportunity and secondly Alcino Pascoal, Administration Adviser, Financial Director, and Senior Project Manager will share an ongoing project which is focused on early-stage entrepreneurs wanting to connect to international markets so students know how broad Madan Parque’s ecosystem network is.  
