@@ -14,6 +14,8 @@ speakers:
 more:
   - title: Facebook Video
     url: https://www.facebook.com/watch/?v=341575850436958
+  - title: Video Recording
+    url: https://drive.google.com/file/d/1UzC64aZ3i2kf4VCTvdBq2oo7StyegkYJ/view?usp=sharing
 ---
 
 You are not your job or your position. Everyone has their own unique purpose, ambitions and way of being.

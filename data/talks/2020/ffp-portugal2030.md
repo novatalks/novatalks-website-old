@@ -11,8 +11,8 @@ speakers:
 more:
   - title: Facebook Event
     url: https://www.facebook.com/events/791049531678163/
-  - title: ZOOM call
-    url: https://zoom.us/j/94685219723?pwd=U1Y1RE55WnhWeXdRM2JjNm4zWGZUUT09
+  - title: Video Recording
+    url: https://drive.google.com/file/d/1yo00oFCiKDgMaeSu2Ox5BzWBL8sCnYTc/view?usp=sharing
 ---
 
 Vivemos num período decisivo para o nosso futuro, e os próximos anos decidirão a sociedade em que viveremos. Esta transformação, muitas vezes silenciosa, vai revelando as fragilidades dos sistemas que nos regem.

@@ -15,8 +15,8 @@ more:
     url: /documents/talks/startup/2020_1209_NOVAtalks_MADAN_PARQUE.pdf
   - title: Facebook Event
     url: https://www.facebook.com/events/179772117144548/
-  - title: ZOOM call
-    url: https://zoom.us/j/96130144660?pwd=aGxaakc5M29qQjRhdFdJQXJHMFRDUT09
+  - title: Video Recording
+    url: https://drive.google.com/file/d/1IdxnZXbyTTsyVzZBEN5nQp4v6njfAIqr/view?usp=sharing
 ---
 
 **PT**

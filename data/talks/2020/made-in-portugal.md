@@ -13,8 +13,8 @@ speakers:
 more:
   - title: Facebook Event
     url: https://www.facebook.com/events/434759204586117/
-  - title: ZOOM call
-    url: https://zoom.us/j/91613170877?pwd=SEg0OE1NSGNnMFgycDVzcFlRU0JmUT09
+  - title: Video Recording
+    url: https://drive.google.com/file/d/1UT2CodRmefmNQ1uxvZ9EstmDvW5NSGQu/view
 ---
 
 Ao contrário do que se pensa, bons produtos e empresas tecnológicas não são apenas criados em Silicon Valley.
