@@ -16,7 +16,7 @@ more:
   - title: Facebook Event
     url: https://www.facebook.com/events/179772117144548/
   - title: Video Recording
-    url: https://drive.google.com/file/d/1IdxnZXbyTTsyVzZBEN5nQp4v6njfAIqr/view?usp=sharing
+    url: https://drive.google.com/file/d/1oN9F57G7dm5bJlXCqgscV4xfAuG2Hkjo/view?usp=sharing
 ---
 
 **PT**

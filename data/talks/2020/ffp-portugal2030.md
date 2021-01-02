@@ -12,7 +12,7 @@ more:
   - title: Facebook Event
     url: https://www.facebook.com/events/791049531678163/
   - title: Video Recording
-    url: https://drive.google.com/file/d/1yo00oFCiKDgMaeSu2Ox5BzWBL8sCnYTc/view?usp=sharing
+    url: https://drive.google.com/file/d/1yM94LZe_8aqR_XBSCnzT-eYmTSBMeo8I/view?usp=sharing
 ---
 
 Vivemos num período decisivo para o nosso futuro, e os próximos anos decidirão a sociedade em que viveremos. Esta transformação, muitas vezes silenciosa, vai revelando as fragilidades dos sistemas que nos regem.

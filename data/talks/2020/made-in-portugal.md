@@ -14,7 +14,7 @@ more:
   - title: Facebook Event
     url: https://www.facebook.com/events/434759204586117/
   - title: Video Recording
-    url: https://drive.google.com/file/d/1UT2CodRmefmNQ1uxvZ9EstmDvW5NSGQu/view
+    url: https://drive.google.com/file/d/1UT2CodRmefmNQ1uxvZ9EstmDvW5NSGQu/view?usp=sharing
 ---
 
 Ao contrário do que se pensa, bons produtos e empresas tecnológicas não são apenas criados em Silicon Valley.
