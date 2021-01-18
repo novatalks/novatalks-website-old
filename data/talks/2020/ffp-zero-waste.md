@@ -8,6 +8,9 @@ image: /images/talks/ffp_zero_waste.png
 speakers:
   - name: Ana Milhazes
     company: Lixo Zero Portugal.
+more:
+  - title: Video Recording
+    url: https://drive.google.com/file/d/1U83S4t-78SfHaB5eD8b1MaqzIov7-pE7/view?usp=sharing
 ---
 
-Na segunda edição do **#FridaysForThePlanet**, Portugal 2030, conversamos com a Ana Milhazes do Lixo Zero Portugal.
+Nesta segunda edição do **#FridaysForThePlanet**, contamos com a presença da Ana Milhazes, mais conhecida como Ana, Go Slowly (@anagoslowly) e fundadora do movimento Lixo Zero Portugal (@zerowasteportugal), para nos ajudar a entrar neste admirável mundo novo, onde levar uma vida mais simples e sustentável passa por reimaginar a forma como consumimos, como reaproveitar aquilo que gastamos e como redesenhar o ciclo de vida daquilo que nos rodeia.
