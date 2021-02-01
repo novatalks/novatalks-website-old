@@ -79,7 +79,7 @@ const members = [
   {
     name: "Beatriz Alves",
     role: "Divulgação",
-    image: "/images/team/default.png",
+    image: "/images/team/beatriz_alves.png",
   },
   {
     name: "Gonçalo Neves",
