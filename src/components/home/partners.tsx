@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(0, 2),
   },
   link: {
-    background: theme.palette.common.black,
+    background: "transparent",
     borderRadius: "10%",
     width: 150,
     height: 150,
@@ -33,6 +33,7 @@ const useStyles = makeStyles(theme => ({
   },
   image: {
     borderRadius: "10%",
+    objectFit: "contain",
     width: 150,
     height: 150,
   },
@@ -53,6 +54,11 @@ const partners = [
     name: "Network Me",
     image: "/images/partners/network_me.png",
     link: "https://www.networkme.pt",
+  },
+  {
+    name: "edp",
+    image: "/images/partners/edp.png",
+    link: "https://www.edp.com/pt-pt",
   },
 ] as const;
 
