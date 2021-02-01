@@ -42,7 +42,7 @@ type Member = {
 
 const members = [
   {
-    name: "Ana Rita",
+    name: "Ana Rita Bonito",
     role: "Presidente",
     image: "/images/team/ana_rita.jpg",
   },
@@ -90,11 +90,6 @@ const members = [
     name: "Marta Coelho",
     role: "Divulgação",
     image: "/images/team/marta.png",
-  },
-  {
-    name: "Margarida Vida",
-    role: "Divulgação",
-    image: "/images/team/margarida_vida.png",
   },
   {
     name: "Beatriz Cerqueira",
@@ -148,6 +143,11 @@ const formerMembers = [
     name: "Tomás Silva",
     role: "Colaborador",
     image: "/images/team/tomas_silva.jpg",
+  },
+  {
+    name: "Margarida Vida",
+    role: "Divulgação",
+    image: "/images/team/margarida_vida.png",
   },
 ] as const;
 
