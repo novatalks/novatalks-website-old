@@ -21,13 +21,13 @@ export default ({ talks }: HomeProps) => {
       <MainImage />
       <div id="jump-sobre-nos" />
       <About />
-      <HelpUs />
       <div id="jump-eventos" />
       <Talks talks={talks} />
       <div id="jump-parceiros" />
       <Partners />
       <div id="jump-equipa" />
       <Team />
+      <HelpUs />
     </>
   );
 };
