@@ -114,7 +114,10 @@ function perTalk(t: MinimalTalk, classes: ReturnType<typeof useStyles>) {
         }}
       />
       <div className={classes.imageBackdrop} />
-      <Link href={t.href} as={t.as}>
+      <Link
+        href={t.title == "Recoded" ? "/recoded.github.io/" : t.href}
+        as={t.title == "Recoded" ? "/recoded.github.io/" : t.as}
+      >
         <div className={classes.imageButton}>
           <Typography
             variant="h6"
