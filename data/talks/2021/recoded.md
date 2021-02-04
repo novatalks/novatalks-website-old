@@ -1,7 +1,7 @@
 ---
 title: Recoded
 date: 2021-02-09
-startTime: 11:30
+startTime: 10:00
 endTime: 17:00
 location: Direto no Facebook ou ZOOM
 image: /images/talks/recoded.png
@@ -11,9 +11,9 @@ speakers:
   - name: Filipe Cardoso
     company: Senior OutSystems Consultant at Moxie
 more:
-  - title: Recoded page
+  - title: Recoded Event page
     url: https://novatalks.github.io/recoded.github.io/
-  - title: Facebook Event
+  - title: Facebook Event page
     url: https://www.facebook.com/events/343994913295825/
 ---
 
@@ -25,5 +25,3 @@ Nos workshops, a decorrer no dia 9 de fevereiro, terás oportunidade de aprender
 Já no dia 11, terás oportunidade de participar no main stage do evento, onde uma série de convidados vêm partilhar connosco a sua visão inspiradora sobre o futuro que nos espera.  
 
 Junta-te a nós nos dias 9 e 11 de fevereiro na plataforma Zoom para que juntos possamos re-codificar e re-pensar o futuro! 😉  
-
-Preparámos um site para este evento onde todas estas e futuras informações serão agregadas https://novatalks.github.io/recoded.github.io/.
