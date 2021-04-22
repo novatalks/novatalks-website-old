@@ -1,0 +1,18 @@
+---
+title: ‎#FridaysForThePlanet - Project Drawdown
+date: 2021-04-23
+startTime: 15:00
+endTime: 16:00
+location: Direto no Facebook ou ZOOM
+image: /images/talks/ffp_remaking_industry.png
+speakers:
+  - name: João Leão
+    company: Co-founder do VIVA Lab - Um dos mais promissores Laboratório de Fabricação Digital da cidade do Porto especializado nas áreas de Educação, Design e Inovação Social. Professor Assistente na Universidade do Porto no Mestrado de Design Industrial & de Produto. Investigador na ID+ DESIS Lab no desenvolvimento de projetos de Design com impacto ambiental e de Inovação Social. Vencedor do Core77 Design Award 2020, Inventables Design Award 2018 e Pré-finalista da Distributed Design Award 2020.
+more:
+  - title: Facebook Event
+    url: https://www.facebook.com/events/158289592851586
+---
+
+Na sexta edição da iniciativa **#FridaysForThePlanet**, contamos com a presença de João Leão que, com o seu projeto Maker Island (https://www.makerisland.io/), procura explorar novas abordagens de design, como meio para criar melhores produtos e, simultaneamente, novas soluções para os problemas do quotidiano, mais colaborativas e sustentáveis.
+
+A iniciativa #FridaysForThePlanet é patrocinada pela EDP, no âmbito do seu projeto Planeta Zero (https://www.edp.pt/particulares/planeta-zero/)
